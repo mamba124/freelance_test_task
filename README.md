@@ -23,6 +23,8 @@ Run the following command to install the required Python libraries:
 Use the following command to start the feature extraction process:
 
 ```
+    export LLM=<your llm model name>
+    export LLM_API_TOKEN=<your llm api token>
     python -m main --data_folder <path_to_product_descriptions> --features_path <path_to_feature_list> --output_path <path_to_output_excel>
 ```
 
